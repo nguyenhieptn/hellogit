@@ -16,13 +16,7 @@ Route::get('/', function()
 	return View::make('hello');
 });
 
-
-Route::get('blank', function(){
 Route::get('/blank',function(){
 	echo "hi";
-
-
-
-
-
 });
+?>
