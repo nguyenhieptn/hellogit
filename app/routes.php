@@ -22,3 +22,4 @@ Route::get('/blank',function(){
 Route::get('/contact',function(){
 	return View::make('contact.contact');
 });
+Route::resource("profiles",'ProfilesController');
