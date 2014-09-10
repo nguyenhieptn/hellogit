@@ -21,3 +21,4 @@ Route::get('/blank',function(){
 });
 
 
+Route::resource('znews', 'ZNewsController');
