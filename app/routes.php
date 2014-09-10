@@ -21,4 +21,7 @@ Route::get('/blank',function(){
 });
 
 Route::resource('/hieu', 'HieuCongtroler');
+Route::resource("news","NewsController");
 
+
+Route::resource('znews', 'ZNewsController');
