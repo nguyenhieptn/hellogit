@@ -19,7 +19,10 @@ Route::get('/', function()
 Route::get('/blank',function(){
 	return View::make('blank.blank');
 });
+<<<<<<< HEAD
 Route::get('/contact',function(){
 	return View::make('contact.contact');
 });
 Route::resource("profiles",'ProfilesController');
+=======
+>>>>>>> parent of fc8a085... Simon changed
