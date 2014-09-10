@@ -19,3 +19,6 @@ Route::get('/', function()
 Route::get('/blank',function(){
 	return View::make('blank.blank');
 });
+Route::get('/contact',function(){
+	return View::make('contact.contact');
+});
