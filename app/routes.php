@@ -20,3 +20,4 @@ Route::get('/blank',function(){
 	return View::make('blank.blank');
 });
 
+
