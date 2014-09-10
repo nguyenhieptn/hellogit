@@ -20,9 +20,18 @@ Route::get('/blank',function(){
 	return View::make('blank.blank');
 });
 <<<<<<< HEAD
+<<<<<<< HEAD
 Route::get('/contact',function(){
 	return View::make('contact.contact');
 });
 Route::resource("profiles",'ProfilesController');
 =======
 >>>>>>> parent of fc8a085... Simon changed
+=======
+
+Route::resource('/hieu', 'HieuCongtroler');
+Route::resource("news","NewsController");
+
+
+Route::resource('znews', 'ZNewsController');
+>>>>>>> origin/master
