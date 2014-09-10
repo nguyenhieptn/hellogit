@@ -12,3 +12,4 @@ composer.lock
 Thumbs.db
 */workspace.xml
 **/.idea/workspace.xml
+/nbproject/private/
