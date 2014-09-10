@@ -19,5 +19,5 @@ Route::get('/', function()
 
 
 Route::get('/blank',function(){
-	echo "hi"; exit;
+	echo "hi";
 });
