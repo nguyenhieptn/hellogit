@@ -20,4 +20,6 @@ Route::get('/blank',function(){
 	return View::make('blank.blank');
 });
 
+Route::resource("news","NewsController");
+
 
